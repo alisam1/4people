@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
+    <title>4People Test</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__logo"></div>
+                <nav class="header__nav">
+                    <button class="header__nav-button"><img src="img/menu.svg" alt=""></button>
+                    <ul class="header__list">
+                        <li class="header__item active"><a href="">Бизнес</a></li>
+                        <li class="header__item"><a href="">О нас</a></li>
+                        <li class="header__item"><a href="">Цены</a></li>
+                        <li class="header__item"><a href="">Оформить заказ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="main-section">
+                <div class="container">
+                    <div class="main-section__content">
+                            <h1 class="main-section__title"><span>Lorem ipsum</span> dolor sit amet consectetur <span>adipiscing</span></h1>
+                            <ul class="main-section__list">
+                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus!</p>
+                                <li class="main-section__item">Totam rem aperiam eaque ipsa</li>
+                                <li class="main-section__item">Sit voluptatem accusantium doloremque laudantium</li>
+                                <li class="main-section__item">Sed ut perspiciatis, unde omnis iste natus error</li>
+                            </ul>
+                            <div class="main-section__group">
+                                <button class="main-section__button main-section__button--blue">Заказать</button>
+                                <button class="main-section__button main-section__button--white">Подробнее</button>
+                            </div>
+                    </div>
+                </div>
+        </section>
+        
+        <section class="order">
+            <div class="container">
+                <h3 class="order__title">Оформление <span>Заказа</span></h3>
+                <p class="order__description">Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
+                <div class="order__group">
+                    <div class="order__icon">
+                        <img src="img/icon_1.svg" alt="icon_1">
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                    <div class="order__icon">
+                        <img src="img/icon_2.svg" alt="icon_2">
+                        <p>Сonsecteturadipiscing elit</p>
+                    </div>
+                    <div class="order__icon">
+                        <img src="img/icon_3.svg" alt="icon_3">
+                        <p>Sed do eiusmod tempor</p>
+                    </div>
+                    <div class="order__icon">
+                        <img src="img/icon_4.svg" alt="icon_4">
+                        <p>Esse cillum dolore eu fugiat</p>
+                    </div>
+                    <div class="order__icon">
+                        <img src="img/icon_5.svg" alt="icon_5">
+                        <p>Excepteur sint occaecat cupidatat non proident</p>
+                    </div>
+                </div>
+
+                <div class="order__form">
+                    <form action="" oninput="level.value = flevel.valueAsNumber">
+                        <div class="order__form-top">
+                            <ul class="faux-select" data-selected-value="ted">
+                                <li class="selected-option"><span>Выберите тип системы</span>
+                                    <ul class="options">
+                                        <li data-value="1">Sed ut perspiciatis</li>
+                                        <li data-value="2">Nemo enim ipsam</li>
+                                        <li data-value="3">Et harum quidem</li>
+                                        <li data-value="4">Temporibus autem</li>
+                                        <li data-value="5">Itaque earum rerum</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <input type="email" placeholder="Ваш e-mail"> 
+                            <input type="text" placeholder="Вашe имя">
+                        </div>
+                        <div class="order__form-bottom">
+                            <div class="order__form-range">
+                                <div class="order__form-label">
+                                    <label for="flying">Sed ut perspiciatis, unde omnis iste natus</label>
+                                    <div><output for="flying" name="level">0</output><span>%</span></div>
+                                </div>
+                                <input name="flevel" id="flying" type="range" min="0" max="100" value="0">
+                            </div>
+                            <div class="order__form-file">
+                                <input name="file" type="file" name="file" id="input__file" class="input order__form-file-input" multiple>
+                                <label for="input__file" class="order__form-file-button">
+                                    <span class="input__file-icon-wrapper"><img class="order__form-file-icon" src="img/file_icon.svg" alt="Выбрать файл"
+                                            width="25"></span>
+                                    <span class="order__form-file-button-text">Прикрепить файл</span>
+                                </label>
+                            </div>
+                        </div>
+                        <input type="submit" value="Отправить">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__right">
+                    <p>© 2018 «LoremIpsum.net» Все права защищены.</p>
+                </div>
+                <div class="footer__middle">
+                    <p class="footer__middle-qiwi"><a href="#">Qiwi wallet</a></p>
+                    <p class="footer__middle-yandex"><a href="#">Yandex Money</a></p>
+                    <p class="footer__middle-wm"><a href="#">Web Money</a></p>
+                </div>
+                <div class="footer__left">
+                    <p class="footer__left-mail"><a href="mailto:info@ipsum228.com">info@ipsum228.com</a></p>
+                    <p class="footer__left-vk"><a href="#">Мы вконтакте</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
