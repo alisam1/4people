@@ -558,7 +558,7 @@
     .order {
       padding-top: 60px; } }
 
-.faux-select {
+.order__form-select {
   list-style-type: none;
   background-color: rgba(255, 255, 255, 0.851);
   border: 1px solid white;
@@ -569,15 +569,15 @@
   position: relative;
   margin: 0;
   padding-left: 0; }
-  .faux-select ul {
+  .order__form-select ul {
     padding-left: 0; }
-  .faux-select li {
+  .order__form-select li {
     padding: 0;
     text-indent: 1em;
     position: relative;
     padding: 10px;
     padding-left: 0; }
-    .faux-select li .options {
+    .order__form-select li .options {
       display: block;
       list-style-type: none;
       padding: 0;
@@ -594,23 +594,23 @@
       transition: all ease 0.25s;
       -webkit-box-sizing: border-box;
               box-sizing: border-box; }
-      .faux-select li .options li {
+      .order__form-select li .options li {
         font-size: 18px;
         line-height: 1.889;
         color: #fff;
         padding: 0.2em 0;
         padding-bottom: 0; }
-        .faux-select li .options li:hover {
+        .order__form-select li .options li:hover {
           color: #43abf0; }
-        .faux-select li .options li:last-of-type {
+        .order__form-select li .options li:last-of-type {
           border-bottom: 0; }
-    .faux-select li .options.open {
+    .order__form-select li .options.open {
       background-color: rgba(39, 39, 51, 0.902);
       max-height: 1000%;
       border: 3px solid #000;
       border: 1px solid #3d4050;
       border-radius: 3px; }
-  .faux-select:before {
+  .order__form-select:before {
     content: "";
     position: absolute;
     background-image: url("../img/black_ar.png");
@@ -621,11 +621,11 @@
     -webkit-transition: all ease 0.25s;
     transition: all ease 0.25s; }
   @media screen and (min-width: 320px) and (max-width: 767px) {
-    .faux-select {
+    .order__form-select {
       width: 100%;
       margin-bottom: 20px; } }
 
-.faux-select.open {
+.order__form-select.open {
   background-color: #3d4050;
   border: 1px solid #3d4050;
   padding-left: 0;
@@ -633,7 +633,7 @@
   line-height: 1.222;
   color: white;
   position: relative; }
-  .faux-select.open:before {
+  .order__form-select.open:before {
     content: "";
     position: absolute;
     background-image: url("../img/white_ar.png");

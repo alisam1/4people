@@ -11,7 +11,7 @@ $(document).ready(function(){
 
 /* Select */
 $(document).ready(function(){
-    $('.faux-select').click(function(){
+    $('.order__form-select').click(function(){
         $(this).toggleClass('open');
         $('.options',this).toggleClass('open');
         });
@@ -20,6 +20,6 @@ $(document).ready(function(){
         var selection = $(this).text();
         var dataValue = $(this).attr('data-value');
         $('.selected-option span').text(selection);
-        $('.faux-select').attr('data-selected-value',dataValue);
+        $('.order__form-select').attr('data-selected-value',dataValue);
     });
 });
